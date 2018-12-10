@@ -17,7 +17,6 @@ class App extends Component {
             <div className="container">
               <div className="row">
                 <div className="col-md-12">
-                  {/* <GithubComponent /> */}
                   <Route exact path="/" component={GithubComponent} />
                   <Route path="/github" component={GithubComponent} />
                   <Route path="/quickquiz" component={QuickQuizComponent} />
