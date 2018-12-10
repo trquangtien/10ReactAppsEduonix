@@ -1,0 +1,20 @@
+{
+  "name": "github-profile-viewer",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Tien Tran <tien.quangtran@seldatinc.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  }
+}
