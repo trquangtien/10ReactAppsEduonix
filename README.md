@@ -1,1 +1,1 @@
-# 10ReactAppsEduonix
+# 10 React Apps Eduonix
