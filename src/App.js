@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter, Route } from 'react-router-dom';
 import { Nav } from './components/nav.component';
 import { GithubComponent } from './components/github.component';
-import { QuickQuizComponent } from './components/quick-quiz.component';
+import { MovieFindComponent } from './components/movie-find.component';
 
 class App extends Component {
   render() {
@@ -17,9 +17,9 @@ class App extends Component {
             <div className="container">
               <div className="row">
                 <div className="col-md-12">
-                  <Route exact path="/" component={GithubComponent} />
+                  <Route exact path="/" component={MovieFindComponent} />
                   <Route path="/github" component={GithubComponent} />
-                  <Route path="/quickquiz" component={QuickQuizComponent} />
+                  <Route path="/movie-find" component={MovieFindComponent} />
                 </div>
               </div>
             </div>

@@ -27,8 +27,8 @@ export class Nav extends React.Component {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/quickquiz" className="nav-link" activeClassName="active">
-                Quick Quiz
+              <NavLink to="/movie-find" className="nav-link" activeClassName="active">
+                Movie Find
               </NavLink>
             </li>
             <li className="nav-item">
