@@ -4,6 +4,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import { Nav } from './components/nav.component';
 import { GithubComponent } from './components/github.component';
 import { MovieFindComponent } from './components/movie-find.component';
+import { Reduxstagram } from './components/redux-stagram.component';
 
 class App extends Component {
   render() {
@@ -17,9 +18,10 @@ class App extends Component {
             <div className="container">
               <div className="row">
                 <div className="col-md-12">
-                  <Route exact path="/" component={MovieFindComponent} />
+                  <Route exact path="/" component={Reduxstagram} />
                   <Route path="/github" component={GithubComponent} />
                   <Route path="/movie-find" component={MovieFindComponent} />
+                  <Route path="/reduxstagram" component={Reduxstagram} />
                 </div>
               </div>
             </div>
