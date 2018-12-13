@@ -5,7 +5,7 @@ export class Repo extends React.Component {
     const repo = this.props.repo;
     return (
       <li className="list-group-item">
-        <a href={repo.html_url} target="_blank">
+        <a href={repo.html_url} target="_blank" rel="noopener noreferrer">
           {repo.name}
         </a>
       </li>

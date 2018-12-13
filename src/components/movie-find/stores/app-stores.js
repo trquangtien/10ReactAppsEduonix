@@ -1,12 +1,12 @@
 import AppDispatcher from './../dispatcher/app-dispatcher';
 import AppConstants from './../constants/app-constants';
-import AppAPI from './../utils/appAPI';
+// import AppAPI from './../utils/appAPI';
 import { EventEmitter } from 'events';
 
 var CHANGE_EVENT = 'change';
 
-var _movies = [];
-var _selected = '';
+// var _movies = [];
+// var _selected = '';
 
 var AppStores = Object.assign({}, EventEmitter.prototype, {
   emitChange: function() {

@@ -1,6 +1,5 @@
 import React from 'react';
 import AppActions from './../actions/app-actions';
-import axios from 'axios';
 import AppStores from './../stores/app-stores';
 
 export class SearchForm extends React.Component {
