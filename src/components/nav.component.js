@@ -5,9 +5,9 @@ export class Nav extends React.Component {
   render() {
     return (
       <nav className="navbar navbar-expand-md navbar-dark bg-dark">
-        <a className="navbar-brand" href="#">
+        <Link to="/" className="navbar-brand">
           My React
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -29,6 +29,16 @@ export class Nav extends React.Component {
             <li className="nav-item">
               <NavLink to="/reduxstagram" className="nav-link" activeClassName="active">
                 Reduxstagram
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/simple-redux" className="nav-link" activeClassName="active">
+                Simple Redux
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/simple-store" className="nav-link" activeClassName="active">
+                Simple Store
               </NavLink>
             </li>
             <li className="nav-item">
